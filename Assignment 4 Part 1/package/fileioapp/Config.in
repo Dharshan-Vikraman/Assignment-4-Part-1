@@ -1,0 +1,8 @@
+config BR2_PACKAGE_THREADINGAPP
+    bool "threadingapp"
+    help
+      A simple multithreading application that counts from 1 to 100.
+
+
+source "package/threadingapp/Config.in"
+
